@@ -11,8 +11,8 @@ jobs:
   call-reusable-workflow:
     uses: mukeshsirvi18/shared-workflow2/.github/workflows/main.yml@main
     with:
-      docker_repo_dev: 'testeruser99/dev'
-      docker_repo_prod: 'testeruser99/prod'
+      docker_repo_dev: 'mukesh18s/dev'
+      docker_repo_prod: 'mukesh18s/prod'
     secrets:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
       DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
